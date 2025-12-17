@@ -12,13 +12,9 @@ module.exports = {
       name: "container",
       remotes: {
         products: "products@http://localhost:8081/remoteEntry.js",
-                cart: "cart@http://localhost:8082/remoteEntry.js",
-
+        cart: "cart@http://localhost:8082/remoteEntry.js",
       },
-    },
-  
-  )
-    ,
+    }),
     new htmlWebpackPlugin({
       template: "./public/index.html",
     }),

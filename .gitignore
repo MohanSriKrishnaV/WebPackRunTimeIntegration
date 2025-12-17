@@ -1,3 +1,4 @@
-/container/node_modules
-/products/node_modules
-
+/MFP/mfp/packages/node_modules
+/MFP/mfp/container/node_modules
+/MFP/mfp/dashboard/node_modules
+/MFP/mfp/marketing/node_modules
